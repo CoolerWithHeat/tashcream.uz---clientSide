@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Product list with cart</title>
+
+</head>
+<body>
+  <div class="container">
+      <div class="window1">
+        <h1 class="headerText">Desserts</h1>
+      </div>
+      <div id="togglePoint" class="menu-button active">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="window2">
+        <div id="mobileCart" class="Cart-Total mobileCart">
+          <div id="total" class="total">
+            <h3>No Products Yet.</h3>
+          </div>
+          <div id="added-products" class="added-products"></div>
+          <div class="order-total">
+            <div class="TotalIndicator">
+              <p>Order Total</p>
+            </div>
+            <div class="TotalPrice"><p id="Exact-Amount">$0.00</p></div>
+            <div class="CarbonNote">
+              <div class="carbon-icon">
+                <img src="assets/images/icon-carbon-neutral.svg" alt="C"><span class="carbon-text">This is a<span class="highlight"> carbon-neutral</span> delivery</span>
+              </div>
+            </div>
+          </div>
+          <div class="confirmation">
+            <div id="ConfirmButton" class="confirm-button">
+              <p>Confirm Order</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="products-hub" class="products_window"></div>
+  </div>
+  <div id="SuggestionWindow"></div>
+  <div id="MessageWindow"></div>
+</body>
+</html>
+<script src="./assets/js/messages.js"></script>
+<script src="./assets/js/main.js"></script>
+<script>
+</script>

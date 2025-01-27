@@ -1,0 +1,158 @@
+@keyframes incoming-right{
+    0%{
+        right: -300px;
+        bottom: 0px;
+        opacity: 0;
+    }
+    100%{
+        right: 15px;
+        bottom: 15px;
+        opacity: 1;
+    }
+}
+@keyframes incoming-right-reverse {
+    0% {
+        right: 15px;
+        bottom: 15px;
+        opacity: 1;
+    }
+    100% {
+        right: -300px;
+        bottom: 0px;
+        opacity: 0;
+    }
+}
+@keyframes slowly-fade{
+    0%{
+        opacity: 1;
+    }
+    80%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+@keyframes slowly-appear{
+    0%{
+        opacity: 0;
+        background-color: #c83b0e;
+    }
+    100%{
+        opacity: 1;
+        background-color: none;
+    }
+}
+
+@keyframes reduce-lifespan{
+    0%{
+        width: 99%;
+    }
+    80%{
+        width: 19%;
+        opacity: 1;
+    }
+    100%{
+        width: 0%;
+        opacity: 0;
+    }
+}
+
+@keyframes enlarge{
+    0% {
+        transform: translate(0, 50%) scale(1);
+    }
+    50% {
+        transform: translate(0, 50%) scale(1.4);
+    }
+    100% {
+        transform: translate(0, 50%) scale(1);
+    }
+}
+
+@keyframes buble{
+    0%{
+        transform: translate(0%, 0%);
+    }
+    50%{
+        transform: translate(0%, 15%) scale(110%, 110%);
+        opacity: 0;
+    }
+    75%{
+        opacity: 1;
+    }
+    100%{
+        transform: translate(0%, 0%);
+    }
+}
+
+@keyframes slowlyReduceHeight{
+    0%{
+        height: 70px;
+        opacity: 1;
+    }
+    100%{
+        height: 0px;
+        opacity: 0;
+    }
+}
+
+@keyframes CartProductAddition{
+    0%{
+        transform: scaleX(0.1) scaleY(1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+@keyframes openAnim{
+    0% {
+        opacity: 0;
+        height: 0px;
+    }
+
+    100% {
+        opacity: 1;
+        height: 500px;
+    }
+}
+
+
+@keyframes closeAnim{
+    0% {
+        opacity: 1;
+        height: 500px;
+    }
+
+    100% {
+        opacity: 0;
+        height: 0;
+    }
+}
+
+@keyframes newlyAdded{
+    0%{
+        width:25%;
+        border-radius: 35px;
+        opacity: 0;
+    }
+    100%{
+        width:100%;
+        border-radius: 35px;
+        opacity: 1;
+    }
+}
+
+@keyframes mildBlip{
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
